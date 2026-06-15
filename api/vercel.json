@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "detect.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(format-.*|detect)",
+      "dest": "detect.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "detect.py"
+    }
+  ]
+}

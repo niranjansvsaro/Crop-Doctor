@@ -1,0 +1,146 @@
+[
+  {
+    "id": "rice_blast",
+    "crop_type": "Rice",
+    "name": "Rice Blast",
+    "scientific_name": "Magnaporthe oryzae",
+    "severity": 4,
+    "severity_label": "Severe",
+    "symptoms": "Spindle-shaped spots with gray or white centers and brown borders on leaves. Nodes turn black and break easily. Neck rot causes panicles to fall over.",
+    "treatment": [
+      "Spray Tricyclazole 75 WP at 0.6 g/liter of water.",
+      "Avoid excess nitrogenous fertilizer application.",
+      "Maintain proper field sanitation and remove weed hosts."
+    ],
+    "prevention": "Use resistant seed varieties like Swarna, IR64. Treat seeds with Carbendazim before sowing. Space plants properly to ensure air circulation.",
+    "image_asset": "assets/diseases/rice_blast.jpg"
+  },
+  {
+    "id": "rice_blight",
+    "crop_type": "Rice",
+    "name": "Bacterial Leaf Blight",
+    "scientific_name": "Xanthomonas oryzae",
+    "severity": 3,
+    "severity_label": "Moderate",
+    "symptoms": "Linear yellow to straw-colored stripes starting from leaf tips and margins, progressing downwards. Milky ooze droplets on leaves in humid mornings.",
+    "treatment": [
+      "Spray Streptocycline at 0.1 g/liter mixed with Copper Oxychloride at 2 g/liter.",
+      "Drain excess water from the fields immediately.",
+      "Avoid spraying chemical fertilizers during early mornings."
+    ],
+    "prevention": "Select healthy seeds. Treat seeds with hot water (52-54°C) for 10 minutes. Avoid nitrogen over-application.",
+    "image_asset": "assets/diseases/rice_blight.jpg"
+  },
+  {
+    "id": "wheat_rust",
+    "crop_type": "Wheat",
+    "name": "Brown/Leaf Rust",
+    "scientific_name": "Puccinia recondita",
+    "severity": 3,
+    "severity_label": "Moderate",
+    "symptoms": "Small, oval, orange-brown pustules scattered randomly on the upper leaf surface. Pustules turn black as the crop matures.",
+    "treatment": [
+      "Spray Propiconazole 25 EC at 1 ml/liter of water.",
+      "Eradicate weed hosts like wild barberry in the vicinity.",
+      "Apply balanced NPK fertilizers to boost crop immunity."
+    ],
+    "prevention": "Sow rust-resistant varieties such as HD2967, DBW187. Ensure early sowing to escape peak rust infection periods.",
+    "image_asset": "assets/diseases/wheat_rust.jpg"
+  },
+  {
+    "id": "wheat_smut",
+    "crop_type": "Wheat",
+    "name": "Loose Smut",
+    "scientific_name": "Ustilago tritici",
+    "severity": 5,
+    "severity_label": "Severe",
+    "symptoms": "Healthy grains are replaced by black, powdery spore masses inside the wheat head. Infected heads emerge earlier than healthy ones.",
+    "treatment": [
+      "Seed treatment with Carboxin (Vitavax) at 2 g/kg of seed.",
+      "Uproot and burn infected heads wrapped in a bag to prevent spore spread.",
+      "Solar seed treatment (soaking seeds in water for 4 hours, then drying in hot sun)."
+    ],
+    "prevention": "Use certified disease-free seeds. Practice crop rotation with non-host crops.",
+    "image_asset": "assets/diseases/wheat_smut.jpg"
+  },
+  {
+    "id": "tomato_early_blight",
+    "crop_type": "Tomato",
+    "name": "Early Blight",
+    "scientific_name": "Alternaria solani",
+    "severity": 2,
+    "severity_label": "Mild",
+    "symptoms": "Dark spots with concentric rings (target-like pattern) starting on older lower leaves. Leaves turn yellow and drop off.",
+    "treatment": [
+      "Spray Mancozeb at 2 g/liter or Chlorothalonil at 2 g/liter.",
+      "Prune lower leaves up to 12 inches off the ground to improve ventilation.",
+      "Mulch soil around plants to prevent fungal spores splashing from soil."
+    ],
+    "prevention": "Rotate crops every 3 years. Avoid overhead irrigation (use drip lines). Maintain proper spacing.",
+    "image_asset": "assets/diseases/tomato_early_blight.jpg"
+  },
+  {
+    "id": "tomato_late_blight",
+    "crop_type": "Tomato",
+    "name": "Late Blight",
+    "scientific_name": "Phytophthora infestans",
+    "severity": 5,
+    "severity_label": "Severe",
+    "symptoms": "Large, irregular water-soaked spots on leaves that turn brown/purple. White downy growth on leaf undersides in humid weather. Dark lesions on stems.",
+    "treatment": [
+      "Spray Metalaxyl + Mancozeb (Ridomil Gold) at 2 g/liter.",
+      "Destroy and burn heavily infected plant residues immediately.",
+      "Avoid high humidity microclimates by proper pruning."
+    ],
+    "prevention": "Ensure good drainage. Use certified blight-resistant seeds. Apply defensive copper fungicides prior to rainy spells.",
+    "image_asset": "assets/diseases/tomato_late_blight.jpg"
+  },
+  {
+    "id": "cotton_leaf_curl",
+    "crop_type": "Cotton",
+    "name": "Cotton Leaf Curl Virus",
+    "scientific_name": "Begomovirus CLCuV",
+    "severity": 4,
+    "severity_label": "Severe",
+    "symptoms": "Upward or downward curling of leaf margins, thickening of leaf veins, and cup-like leaf-like structures (enations) under the leaf.",
+    "treatment": [
+      "Control the whitefly vector using Imidacloprid 17.8 SL at 0.3 ml/liter.",
+      "Remove and destroy infected plants at early stages of crop growth.",
+      "Eliminate weed hosts like Sida acuta and Abutilon in and around the field."
+    ],
+    "prevention": "Sow resistant Bt cotton hybrids. Avoid cotton-on-cotton continuous cultivation.",
+    "image_asset": "assets/diseases/cotton_leaf_curl.jpg"
+  },
+  {
+    "id": "maize_rust",
+    "crop_type": "Maize",
+    "name": "Common Rust",
+    "scientific_name": "Puccinia sorghi",
+    "severity": 2,
+    "severity_label": "Mild",
+    "symptoms": "Golden-brown to cinnamon-brown powdery pustules appearing on both upper and lower leaf surfaces. Coalescing pustules cause leaf yellowing and death.",
+    "treatment": [
+      "Spray Mancozeb at 2 g/liter if infestation is high.",
+      "Apply balanced nitrogen and potassium to support plant resilience.",
+      "Harvest early if disease spreads rapidly near maturity."
+    ],
+    "prevention": "Plant rust-resistant maize cultivars. Rotate with soy or legumes. Plow under crop debris after harvesting.",
+    "image_asset": "assets/diseases/maize_rust.jpg"
+  },
+  {
+    "id": "sugarcane_red_rot",
+    "crop_type": "Sugarcane",
+    "name": "Red Rot",
+    "scientific_name": "Colletotrichum falcatum",
+    "severity": 5,
+    "severity_label": "Severe",
+    "symptoms": "Leaves dry up starting from margins. Splitting the stem reveals red pith with white horizontal bands and an alcoholic odor.",
+    "treatment": [
+      "Drench soil with Carbendazim 50 WP at 1 g/liter.",
+      "Rogue out and destroy infected sugarcane clumps instantly.",
+      "Do not practice ratoon cropping in infected fields."
+    ],
+    "prevention": "Plant healthy setts selected from disease-free nurseries. Treat setts with hot water before planting. Practice crop rotation with paddy.",
+    "image_asset": "assets/diseases/sugarcane_red_rot.jpg"
+  }
+]

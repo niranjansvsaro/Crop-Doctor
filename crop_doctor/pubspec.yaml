@@ -1,0 +1,56 @@
+name: crop_doctor
+description: "AI-Powered Crop Disease Detection App for Indian Farmers."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State Management & Local Storage
+  flutter_riverpod: ^2.5.1
+  shared_preferences: ^2.2.3
+
+  # Camera, Selection & Compression
+  camera: ^0.11.0+2
+  image_picker: ^1.1.2
+  flutter_image_compress: ^2.3.0
+
+  # Networking & Sync
+  dio: ^5.5.0+1
+  http: ^1.2.1
+  supabase_flutter: ^2.6.0
+
+  # Database
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+  # Native APIs (Location & TTS & Launcher)
+  geolocator: ^12.0.0
+  permission_handler: ^11.3.1
+  flutter_tts: ^4.1.0
+  url_launcher: ^6.3.0
+
+  # UI Aesthetics & Charts & Icons
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.2
+  glassmorphism: ^3.0.0
+  shimmer: ^3.0.0
+  animated_bottom_navigation_bar: ^1.3.0
+  fl_chart: ^0.68.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/diseases/
