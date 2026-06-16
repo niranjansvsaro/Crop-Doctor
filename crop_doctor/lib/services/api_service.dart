@@ -9,9 +9,7 @@ class ApiService {
   
   // Replace this with your actual Vercel backend URL in production
   // Under Android Emulator, 10.0.2.2 points to local machine's localhost
-  static const String baseUrl  =  "https://crop-doctor-three.vercel.app";
-    //  "http://10.103.18.135:8000";
-  // "http://10.0.2.2:8000"; 
+  static const String baseUrl = "https://crop-doctor-jjla.vercel.app"; 
 
   ApiService() {
     _dio.options.connectTimeout = const Duration(seconds: 35);
