@@ -194,6 +194,14 @@ async def save_scan_to_supabase(scan_data: dict):
     except Exception as e:
         print(f"Error saving scan to Supabase DB: {e}")
 
+@app.get("/")
+async def root():
+    return {
+        "status": "online",
+        "app": "Crop Doctor AI Backend",
+        "message": "AI-powered plant disease detection server is up and running!"
+    }
+
 @app.post("/api/detect", response_model=DiseaseDetectionResponse)
 async def detect_disease(request: DetectRequest, background_tasks: BackgroundTasks):
     if not NVIDIA_API_KEY:
