@@ -78,8 +78,7 @@ To run the FastAPI server on your local machine:
 3. Start the FastAPI server using `uvicorn`:
    ```bash
    python -m uvicorn detect:app --reload
-   python -m uvicorn detect:app --host 0.0.0.0 --port 8000 --reload
-   ```
+   python -m uvicorn detect:app --host 0.0.0.0 --port 8000 --reload  ```
 
 ### Deploying Backend to Vercel
 Deploy directly using the Vercel CLI from the project root or api folder:
@@ -94,3 +93,5 @@ cd "p:\Crop Doctor\crop_doctor"
 flutter run --debug --dart-define=SUPABASE_URL=YOUR_SUPABASE_URL --dart-define=SUPABASE_KEY=YOUR_SUPABASE_KEY
 ```
 *(Note: If no Supabase arguments are supplied, the app gracefully falls back to offline-only mode).*
+
+ 
